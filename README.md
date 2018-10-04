@@ -15,3 +15,7 @@ https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/
 ruby magic_ball.rb
 
 ```
+
+`magic_ball.rb` - основной файл программы
+
+`magic_answers.txt` - текстовый файл, в который вы можете добавлять свои собственные варианты ответов
