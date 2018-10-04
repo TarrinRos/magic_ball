@@ -3,7 +3,7 @@
 
 current_path = File.dirname(__FILE__)
 
-answers_path = "#{current_path}/magic_answers.txt"
+answers_path = "#{current_path}/data/magic_answers.txt"
 
 # Массив приветствий
 greetings = [
