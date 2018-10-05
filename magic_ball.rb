@@ -3,17 +3,11 @@
 
 current_path = File.dirname(__FILE__)
 
+greetings_path = "#{current_path}/data/greetings.txt"
 answers_path = "#{current_path}/data/magic_answers.txt"
 
-# Массив приветствий
-greetings = [
-  "Привет, дорогой друг. Отвечаю на твой вопрос...",
-  "Кто вопрошает, тот получит ответ:",
-  "Здравствуй, смертный. Сегодня для тебя такой ответ:"
-]
-
 # Приветствует пользователя
-puts greetings.sample
+puts File.readlines(greetings_path).sample
 
 # Ожидание N секунд перед выводом пустой строки
 sleep(2)
